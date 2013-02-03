@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://justin-c-rounds.github.com/sitemap.xml 

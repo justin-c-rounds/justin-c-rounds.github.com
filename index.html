@@ -1,0 +1,599 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Justin C. Rounds</title>
+  <meta name="author" content="Justin C. Rounds">
+
+  
+  <meta name="description" content="I&#8217;ve been growing increasingly dissatisfied with my exceedingly &#8220;default&#8221; Wordpress website, but I haven&#8217;t taken any time to &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://justin-c-rounds.github.com/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Justin C. Rounds" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Justin C. Rounds</a></h1>
+  
+    <h2>Maker of Games and Other Fine Things.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/02/02/blogging-with-octopress/">Blogging With Octopress</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-02T18:51:00-05:00" pubdate data-updated="true">Feb 2<span>nd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ve been growing increasingly dissatisfied with my exceedingly &#8220;default&#8221; Wordpress website, but I haven&#8217;t taken any time to mess around with other options. I love Tumblr and may just use that for my regular posting, however being a web dev sometimes I&#8217;d like something a bit more customizable. So I&#8217;m checking out Octopress!</p>
+
+<p>Installation and configuration was pretty simple, although due to some weirdness with my ruby environment I had to clone the octopress repo into a separate directory and then copy files over to my working directory. I suspect there were issues with the build of ruby-1.9.3-p0, but so far my old ruby 1.9.2p290 install is working fine. I&#8217;m looking forward to hacking on Octopress and I love the fact I can just deploy to Github or Heroku or wherever.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/01/20/one-game-a-month-january-2013/">One Game a Month, January 2013</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-20T12:00:00-05:00" pubdate data-updated="true">Jan 20<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://media.tumblr.com/0e9c6953a771e3732cc013cc141ba252/tumblr_inline_mgxj9rqPnZ1qz8kp6.png" alt="One Game A Month, January 2013" /></p>
+
+<p>Ever since I first learned about 3d CSS transforms, I wanted to see if it was possible to use them to make a first-person perspective dungeon crawler like one of the Wizardry series or the dungeons in Ultima III and other games. I decided to give this a go for my #1GAM (<a href="http://www.onegameamonth.com/">One Game A Month</a>) project for this month. I spent last week putting together a tech demo as a proof-of-concept. Check it out at <a href="http://whizardry.herokuapp.com" title="http://whizardry.herokuapp.com" target="_blank"><a href="http://whizardry.herokuapp.com" target="_blank">http://whizardry.herokuapp.com</a></a>. It worked pretty well on OSX Safari and Chrome. Firefox seems to have problems with z-ordering when rendering 3d transformed elements, so the walls can be seen through other walls. I wasn&#8217;t able to get this to render on my 1st-gen iPad, but it worked surprisingly well on my iPhone4 (running iOS5).</p>
+
+<p>Currently there&#8217;s no collision detection, so the player can just walk through walls, and there aren&#8217;t any monsters or other features. Also I really want to make some textures for the walls, etc…</p>
+
+<p><a href="https://github.com/justin-c-rounds/Whizardry">Source code on GitHub</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/01/12/jspaddle-javascripting-on-the-ipad/">JSPaddle: JavaScripting on the iPad</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-12T12:00:00-05:00" pubdate data-updated="true">Jan 12<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Lately I’ve taken to leaving my laptop at home and just bringing my iPad around with me (mostly for reading on the bus). However, sometimes I’d like to “sketch” up a game or something with JavaScript on the go, and as far as I know there aren’t any apps like <a href="http://jsfiddle.net/">JSFiddle</a> for iPad. There are code / web page editors, but the ones I found don’t <em>execute</em> code, and the editors for web pages usually expect the user to FTP files up to a web server. I wanted something like <a href="http://twolivesleft.com/Codea/">Codea</a>, but for JavaScript, HTML, and CSS, that would work offline (since I only have a WiFi iPad and Boston buses don’t have WiFi).</p>
+
+<p>Since I couldn’t find what I wanted, I decided to start building it. I dashed together an inline code editor library and some JavaScript to inject the code into an iframe, and viola! <strong>JSPaddle!</strong> It’s a pretty rough proof-of-concept and feature-limited at the moment, but it works. Some of the really necessary functionality hasn’t been built yet (like offline capability), so don’t expect to do anything with it except execute JavaScript.</p>
+
+<p><a href="https://github.com/justin-c-rounds/jspaddle">GitHub repo</a> (contributors welcome!)</p>
+
+<p><a href="http://jspaddle.herokuapp.com/">jspaddle.herokuapp.com</a> (you can add it to your iPad&#8217;s Home Screen!)</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/12/14/art-is-the-cry-of-distress-uttered-by-those-who-experience-at-first-hand-the-fate-of-mankind/">On Art</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-14T12:00:00-05:00" pubdate data-updated="true">Dec 14<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><blockquote><p>Art is the cry of distress uttered by those who experience at first hand the fate of mankind.</p><footer><strong>Arnold Schoenberg (1910)</strong></footer></blockquote>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/11/29/something-doing-something/">Something Doing Something</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-29T12:00:00-05:00" pubdate data-updated="true">Nov 29<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://media.tumblr.com/tumblr_me9q8hU9071qz8kp6.png" alt="Something Doing Something" /></p>
+
+<p>I made a thing that generates a random adjective, noun, verb, and adverb, in that order. Built using the <a href="http://www.wordnik.com/">Wordnik</a> API. I wanted to create something similar to <a href="http://videogamena.me/">The Video Game Name Generator</a>, but more abstract and simplified. Four random words to vaguely describe <em>something doing something</em>.</p>
+
+<p><a href="http://somethingdoingsomething.herokuapp.com/">http://somethingdoingsomething.herokuapp.com/</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/11/22/%28re%29started-painting-%28with-molly-sleeping%29/">(Re)started Painting (With Molly Sleeping)</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-22T12:30:00-05:00" pubdate data-updated="true">Nov 22<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://25.media.tumblr.com/tumblr_mdwgmbTsln1qz9225o1_500.jpg" title="(Re)started painting (with Molly sleeping)" alt="Alt text" /></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/11/04/reason-and-madness/">Reason and Madness</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-04T12:00:00-05:00" pubdate data-updated="true">Nov 4<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://media.tumblr.com/tumblr_mcytzsTMXj1qz8kp6.png" alt="Skeleton" /></p>
+
+<p>The past few months have been challenging, to say the least. Personal events have caused me to reflect and re-evaluate myself and my projects. <em>Dig</em> suffered from a spot of neglect and a lack of direction, until the last several weeks where I have reworked and rebuilt core pieces of it. Torturing it to death and bringing it back to life like some sadistic necromancer.</p>
+
+<p>There is reason behind the madness, however. One thing that really started bothering me was the server-side code being so tightly twisted up with the front-end code. It meant the game relied on a Rails stack and a database, when it would be faster and more portable to have the browser do all the work. So I forked the front-end code out into a new project and focused on getting the game to a playable state without server-side dependency. It was a big broken mess at first, but eventually it all came together, and the game could run without being shackled to a database. All the dungeon generation is now client-side, and I added support for saving dungeon layouts locally in the browser.</p>
+
+<p>So now if you place a torch on a block, it&#8217;ll be there the next time the page loads, along with all the other blocks, and the position of the player avatar will be right where you left it. This also meant it was a heck of a lot easier to build in new features, so now you can dig blocks instead of getting stuck in a corner somewhere with no way to get out. Of course if you dig a block with a torch on it, the torch goes away and you&#8217;ll be left in the dark. And if you dig a block near a torch, it&#8217;ll stop occluding the light, which is a pretty neat effect.</p>
+
+<p>In honor of Halloween, last week&#8217;s efforts were put into adding skeletons (well, one skeleton anyway) to the game. The skeleton will spawn in a dark area of the map and wander around until it sees the player avatar, at which point it&#8217;ll move toward the player avatar. For now the skeleton doesn&#8217;t attack, but that will be my next task.</p>
+
+<p>Mobile support is likely broken, and the stairs don&#8217;t work anymore, but give it a go at <a href="http://digdeepdungeons.herokuapp.com/">http://digdeepdungeons.herokuapp.com/</a>.</p>
+
+<p>Arrow keys to move. Move into a block to dig. Press x or spacebar to place a torch. If you get stuck or just want to build a new dungeon, click the RESET button.</p>
+
+<p>There are definitely some bugs. There&#8217;s some weirdness with the lights and some areas remain dark that should be lit when blocks are dug out. Also there&#8217;s an issue with Chrome where the darkness disappears when a block gets dug. Firefox and Safari seem ok, though. YMMV!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/05/27/ludum-dare-%2323-update%21/">Ludum Dare #23 Update!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-27T12:00:00-04:00" pubdate data-updated="true">May 27<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://justincrounds.files.wordpress.com/2012/05/bedroom.png" title="Seamonkeys: Quest for Atlantis" alt="Seamonkeys: Quest for Atlantis" /></p>
+
+<p>I&#8217;ve been tinkering with my attempted <strong>Ludum Dare #23</strong> entry, &#8220;Seamonkeys: Quest for Atlantis&#8221; for the past few weeks, and although I like the concept and working on it has really improved both my game engine and my build process, I need to shelve it to get back to work on <strong>Dig Deep Dungeons</strong>. But before I stick it on the backlog, I thought I&#8217;d share the <a href="https://dl.dropbox.com/u/625330/seamonkeys/seamonkeys.html">work-in-progress</a>.</p>
+
+<p>The theme for LD23 was &#8220;Tiny World&#8221;, and I came up with the idea to make a sim/adventure hybrid, where the player had to get a colony of illegally harvested seamonkeys to the ocean before they all died. I&#8217;m old enough to remember comic books with adverts in them depicting these magical undersea creatures as intelligent anthropomorhpic merfolk, and thought it would be interesting to treat them as such.</p>
+
+<p>And yes, I was disappointed that they were just brine shrimp.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/04/21/ludum-dare-23/">Ludum Dare #23!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-21T00:00:00-04:00" pubdate data-updated="true">Apr 21<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://justincrounds.files.wordpress.com/2012/04/2012-04-21-07-25-48.jpg" alt="Ludum Dare #23 Brainstorming" /></p>
+
+<p><a href="http://www.ludumdare.com/compo/">Ludum Dare</a> weekend! Theme is &#8220;Tiny World&#8221; and I&#8217;m going to attempt a point &amp; click adventure about trying to get a colony of Sea Monkeys back to the sea before they all die.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/02/02/html5-flash-stop-with-the-versus-already/">HTML5 + Flash (Stop With the Versus Already)</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-02T12:00:00-05:00" pubdate data-updated="true">Feb 2<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><em>TL;DR: As game makers, we should stop arguing about whether to use HTML5 or Flash and use the best parts of any browser technology to make the best games possible.</em></p>
+
+<p>Just when I thought the whole HTML5 vs. Flash nonsense had withered away, a link to this <del>piece of propaganda</del> <a href="http://venturebeat.com/2012/01/31/html5-versus-flash-infographic/">infographic</a> percolates through my Twitter feed glorifying Flash as the clear champion in the realm of browser-based gaming. It&#8217;s no surprise, considering this was created by a Flash game portal, but I am not here to prop up either side of a silly debate. Rather I argue that treating these two <em>intersecting</em> technologies in diametrical opposition to one another hinders us from making the best games possible in the browser.</p>
+
+<h2>Flash is awesome.</h2>
+
+<p>Ever since the Flex SDK (well most of it anyway) became open-source in 2008, the <a href="http://www.adobe.com/products/flex.html">tools</a> for making Flash games have been available to anyone. You can use any text-editor to write your code and are not required to use the Flash IDE to compile or debug Flash SWFs. There are a wealth of libraries for handling physics and such, good documentation, and some great frameworks designed just for building games.</p>
+
+<h2>HTML5 is awesome.</h2>
+
+<p>The work being done to push the capabilities of browsers is really impressive. Looking back a year ago, it&#8217;s amazing to see how far browsers have come. JavaScript development is trivial, requiring no compilation and minimal tools. Heck, the browser itself can be your IDE. JavaScript has been around for so long and used for so many things, there&#8217;s quite a bit code out there to learn from and libraries to use. And work continues — rapidly — to expand the feature set of browsers.</p>
+
+<h2>Focus on creating the best experience.</h2>
+
+<p>What I propose is that we apply the principles of <a href="http://www.alistapart.com/articles/understandingprogressiveenhancement">progressive enhancement</a> to our use of browser technology to create games. We can see this already happening with the use of <a href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills">polyfills</a> to fallback to Flash, etc. when a browser doesn&#8217;t support a particular feature natively (e.g. Web Audio). This requires a bit more planning and always working with the lowest common denominator in mind, but in a sense we&#8217;re working on creating a flexible codebase that <em>ports itself</em> to various platforms, rather than requiring partial or complete re-implementations. I&#8217;m not exactly sure how this works, but I&#8217;m working through these challenges as I develop <strong><a href="http://digdeepdungeons.com/">Dig Deep Dungeons</a></strong>, since one of my goals is to make the game playable on as many platforms as possible.</p>
+
+<p>Years ago, being disappointed in a lack of gamepad/joystick support in Flash, I built an experiment using <a href="http://crca.ucsd.edu/~msp/software.html">Pure Data</a> to convert standard joystick input to <a href="http://opensoundcontrol.org/introduction-osc">Open Sound Control</a>, and piped it into Flash using <a href="http://benchun.net/flosc/">FLOSC</a>. And it was awesome. We&#8217;re so used to thinking monolithically about what we use to make games (Flash OR Unity OR Canvas OR…) we&#8217;re missing an opportunity to make really interesting mash-ups in the browser that are greater than the sum of their parts. And we&#8217;re denying ourselves the ability to respond to an expanding audience on an array of devices.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/2/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/02/02/blogging-with-octopress/">Blogging with Octopress</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/20/one-game-a-month-january-2013/">One Game A Month, January 2013</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/12/jspaddle-javascripting-on-the-ipad/">JSPaddle: JavaScripting on the iPad</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/14/art-is-the-cry-of-distress-uttered-by-those-who-experience-at-first-hand-the-fate-of-mankind/">On Art</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/11/29/something-doing-something/">Something Doing Something</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("justin_c_rounds", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/justin_c_rounds" class="twitter-follow-button" data-show-count="false">Follow @justin_c_rounds</a>
+  
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/justin-c-rounds">@justin-c-rounds</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'justin-c-rounds',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Justin C. Rounds -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
