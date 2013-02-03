@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Justin C. Rounds]]></title>
   <link href="http://justin-c-rounds.github.com/atom.xml" rel="self"/>
   <link href="http://justin-c-rounds.github.com/"/>
-  <updated>2013-02-02T18:45:51-05:00</updated>
+  <updated>2013-02-02T18:59:13-05:00</updated>
   <id>http://justin-c-rounds.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Justin C. Rounds]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Blogging with Octopress]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2013/02/02/blogging-with-octopress/"/>
+    <updated>2013-02-02T18:51:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2013/02/02/blogging-with-octopress</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve been growing increasingly dissatisfied with my exceedingly &#8220;default&#8221; Wordpress website, but I haven&#8217;t taken any time to mess around with other options. I love Tumblr and may just use that for my regular posting, however being a web dev sometimes I&#8217;d like something a bit more customizable. So I&#8217;m checking out Octopress!</p>
+
+<p>Installation and configuration was pretty simple, although due to some weirdness with my ruby environment I had to clone the octopress repo into a separate directory and then copy files over to my working directory. I suspect there were issues with the build of ruby-1.9.3-p0, but so far my old ruby 1.9.2p290 install is working fine. I&#8217;m looking forward to hacking on Octopress and I love the fact I can just deploy to Github or Heroku or wherever.</p>
+]]></content>
+  </entry>
   
 </feed>
