@@ -4,7 +4,7 @@
   <title><![CDATA[Justin C. Rounds]]></title>
   <link href="http://justin-c-rounds.github.com/atom.xml" rel="self"/>
   <link href="http://justin-c-rounds.github.com/"/>
-  <updated>2013-02-02T18:59:13-05:00</updated>
+  <updated>2013-02-03T13:52:47-05:00</updated>
   <id>http://justin-c-rounds.github.com/</id>
   <author>
     <name><![CDATA[Justin C. Rounds]]></name>
@@ -21,6 +21,264 @@
     <content type="html"><![CDATA[<p>I&#8217;ve been growing increasingly dissatisfied with my exceedingly &#8220;default&#8221; Wordpress website, but I haven&#8217;t taken any time to mess around with other options. I love Tumblr and may just use that for my regular posting, however being a web dev sometimes I&#8217;d like something a bit more customizable. So I&#8217;m checking out Octopress!</p>
 
 <p>Installation and configuration was pretty simple, although due to some weirdness with my ruby environment I had to clone the octopress repo into a separate directory and then copy files over to my working directory. I suspect there were issues with the build of ruby-1.9.3-p0, but so far my old ruby 1.9.2p290 install is working fine. I&#8217;m looking forward to hacking on Octopress and I love the fact I can just deploy to Github or Heroku or wherever.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[One Game A Month, January 2013]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2013/01/20/one-game-a-month-january-2013/"/>
+    <updated>2013-01-20T12:00:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2013/01/20/one-game-a-month-january-2013</id>
+    <content type="html"><![CDATA[<p><img src="http://media.tumblr.com/0e9c6953a771e3732cc013cc141ba252/tumblr_inline_mgxj9rqPnZ1qz8kp6.png" alt="One Game A Month, January 2013" /></p>
+
+<p>Ever since I first learned about 3d CSS transforms, I wanted to see if it was possible to use them to make a first-person perspective dungeon crawler like one of the Wizardry series or the dungeons in Ultima III and other games. I decided to give this a go for my #1GAM (<a href="http://www.onegameamonth.com/">One Game A Month</a>) project for this month. I spent last week putting together a tech demo as a proof-of-concept. Check it out at <a href="http://whizardry.herokuapp.com" title="http://whizardry.herokuapp.com" target="_blank"><a href="http://whizardry.herokuapp.com" target="_blank">http://whizardry.herokuapp.com</a></a>. It worked pretty well on OSX Safari and Chrome. Firefox seems to have problems with z-ordering when rendering 3d transformed elements, so the walls can be seen through other walls. I wasn&#8217;t able to get this to render on my 1st-gen iPad, but it worked surprisingly well on my iPhone4 (running iOS5).</p>
+
+<p>Currently there&#8217;s no collision detection, so the player can just walk through walls, and there aren&#8217;t any monsters or other features. Also I really want to make some textures for the walls, etc…</p>
+
+<p><a href="https://github.com/justin-c-rounds/Whizardry">Source code on GitHub</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[JSPaddle: JavaScripting on the iPad]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2013/01/12/jspaddle-javascripting-on-the-ipad/"/>
+    <updated>2013-01-12T12:00:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2013/01/12/jspaddle-javascripting-on-the-ipad</id>
+    <content type="html"><![CDATA[<p>Lately I’ve taken to leaving my laptop at home and just bringing my iPad around with me (mostly for reading on the bus). However, sometimes I’d like to “sketch” up a game or something with JavaScript on the go, and as far as I know there aren’t any apps like <a href="http://jsfiddle.net/">JSFiddle</a> for iPad. There are code / web page editors, but the ones I found don’t <em>execute</em> code, and the editors for web pages usually expect the user to FTP files up to a web server. I wanted something like <a href="http://twolivesleft.com/Codea/">Codea</a>, but for JavaScript, HTML, and CSS, that would work offline (since I only have a WiFi iPad and Boston buses don’t have WiFi).</p>
+
+<p>Since I couldn’t find what I wanted, I decided to start building it. I dashed together an inline code editor library and some JavaScript to inject the code into an iframe, and viola! <strong>JSPaddle!</strong> It’s a pretty rough proof-of-concept and feature-limited at the moment, but it works. Some of the really necessary functionality hasn’t been built yet (like offline capability), so don’t expect to do anything with it except execute JavaScript.</p>
+
+<p><a href="https://github.com/justin-c-rounds/jspaddle">GitHub repo</a> (contributors welcome!)</p>
+
+<p><a href="http://jspaddle.herokuapp.com/">jspaddle.herokuapp.com</a> (you can add it to your iPad&#8217;s Home Screen!)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[On Art]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2012/12/14/art-is-the-cry-of-distress-uttered-by-those-who-experience-at-first-hand-the-fate-of-mankind/"/>
+    <updated>2012-12-14T12:00:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2012/12/14/art-is-the-cry-of-distress-uttered-by-those-who-experience-at-first-hand-the-fate-of-mankind</id>
+    <content type="html"><![CDATA[<blockquote><p>Art is the cry of distress uttered by those who experience at first hand the fate of mankind.</p><footer><strong>Arnold Schoenberg (1910)</strong></footer></blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Something Doing Something]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2012/11/29/something-doing-something/"/>
+    <updated>2012-11-29T12:00:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2012/11/29/something-doing-something</id>
+    <content type="html"><![CDATA[<p><img src="http://media.tumblr.com/tumblr_me9q8hU9071qz8kp6.png" alt="Something Doing Something" /></p>
+
+<p>I made a thing that generates a random adjective, noun, verb, and adverb, in that order. Built using the <a href="http://www.wordnik.com/">Wordnik</a> API. I wanted to create something similar to <a href="http://videogamena.me/">The Video Game Name Generator</a>, but more abstract and simplified. Four random words to vaguely describe <em>something doing something</em>.</p>
+
+<p><a href="http://somethingdoingsomething.herokuapp.com/">http://somethingdoingsomething.herokuapp.com/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[(Re)started painting (with Molly sleeping)]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2012/11/22/%28re%29started-painting-%28with-molly-sleeping%29/"/>
+    <updated>2012-11-22T12:30:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2012/11/22/(re)started-painting-(with-molly-sleeping)</id>
+    <content type="html"><![CDATA[<p><img src="http://25.media.tumblr.com/tumblr_mdwgmbTsln1qz9225o1_500.jpg" title="(Re)started painting (with Molly sleeping)" alt="Alt text" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Reason and Madness]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2012/11/04/reason-and-madness/"/>
+    <updated>2012-11-04T12:00:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2012/11/04/reason-and-madness</id>
+    <content type="html"><![CDATA[<p><img src="http://media.tumblr.com/tumblr_mcytzsTMXj1qz8kp6.png" alt="Skeleton" /></p>
+
+<p>The past few months have been challenging, to say the least. Personal events have caused me to reflect and re-evaluate myself and my projects. <em>Dig</em> suffered from a spot of neglect and a lack of direction, until the last several weeks where I have reworked and rebuilt core pieces of it. Torturing it to death and bringing it back to life like some sadistic necromancer.</p>
+
+<p>There is reason behind the madness, however. One thing that really started bothering me was the server-side code being so tightly twisted up with the front-end code. It meant the game relied on a Rails stack and a database, when it would be faster and more portable to have the browser do all the work. So I forked the front-end code out into a new project and focused on getting the game to a playable state without server-side dependency. It was a big broken mess at first, but eventually it all came together, and the game could run without being shackled to a database. All the dungeon generation is now client-side, and I added support for saving dungeon layouts locally in the browser.</p>
+
+<p>So now if you place a torch on a block, it&#8217;ll be there the next time the page loads, along with all the other blocks, and the position of the player avatar will be right where you left it. This also meant it was a heck of a lot easier to build in new features, so now you can dig blocks instead of getting stuck in a corner somewhere with no way to get out. Of course if you dig a block with a torch on it, the torch goes away and you&#8217;ll be left in the dark. And if you dig a block near a torch, it&#8217;ll stop occluding the light, which is a pretty neat effect.</p>
+
+<p>In honor of Halloween, last week&#8217;s efforts were put into adding skeletons (well, one skeleton anyway) to the game. The skeleton will spawn in a dark area of the map and wander around until it sees the player avatar, at which point it&#8217;ll move toward the player avatar. For now the skeleton doesn&#8217;t attack, but that will be my next task.</p>
+
+<p>Mobile support is likely broken, and the stairs don&#8217;t work anymore, but give it a go at <a href="http://digdeepdungeons.herokuapp.com/">http://digdeepdungeons.herokuapp.com/</a>.</p>
+
+<p>Arrow keys to move. Move into a block to dig. Press x or spacebar to place a torch. If you get stuck or just want to build a new dungeon, click the RESET button.</p>
+
+<p>There are definitely some bugs. There&#8217;s some weirdness with the lights and some areas remain dark that should be lit when blocks are dug out. Also there&#8217;s an issue with Chrome where the darkness disappears when a block gets dug. Firefox and Safari seem ok, though. YMMV!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ludum Dare #23 Update!]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2012/05/27/ludum-dare-%2323-update%21/"/>
+    <updated>2012-05-27T12:00:00-04:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2012/05/27/ludum-dare-#23-update!</id>
+    <content type="html"><![CDATA[<p><img src="http://justincrounds.files.wordpress.com/2012/05/bedroom.png" title="Seamonkeys: Quest for Atlantis" alt="Seamonkeys: Quest for Atlantis" /></p>
+
+<p>I&#8217;ve been tinkering with my attempted <strong>Ludum Dare #23</strong> entry, &#8220;Seamonkeys: Quest for Atlantis&#8221; for the past few weeks, and although I like the concept and working on it has really improved both my game engine and my build process, I need to shelve it to get back to work on <strong>Dig Deep Dungeons</strong>. But before I stick it on the backlog, I thought I&#8217;d share the <a href="https://dl.dropbox.com/u/625330/seamonkeys/seamonkeys.html">work-in-progress</a>.</p>
+
+<p>The theme for LD23 was &#8220;Tiny World&#8221;, and I came up with the idea to make a sim/adventure hybrid, where the player had to get a colony of illegally harvested seamonkeys to the ocean before they all died. I&#8217;m old enough to remember comic books with adverts in them depicting these magical undersea creatures as intelligent anthropomorhpic merfolk, and thought it would be interesting to treat them as such.</p>
+
+<p>And yes, I was disappointed that they were just brine shrimp.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ludum Dare #23!]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2012/04/21/ludum-dare-23/"/>
+    <updated>2012-04-21T00:00:00-04:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2012/04/21/ludum-dare-23</id>
+    <content type="html"><![CDATA[<p><img src="http://justincrounds.files.wordpress.com/2012/04/2012-04-21-07-25-48.jpg" alt="Ludum Dare #23 Brainstorming" /></p>
+
+<p><a href="http://www.ludumdare.com/compo/">Ludum Dare</a> weekend! Theme is &#8220;Tiny World&#8221; and I&#8217;m going to attempt a point &amp; click adventure about trying to get a colony of Sea Monkeys back to the sea before they all die.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[HTML5 + Flash (stop with the versus already)]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2012/02/02/html5-flash-stop-with-the-versus-already/"/>
+    <updated>2012-02-02T12:00:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2012/02/02/html5-flash-stop-with-the-versus-already</id>
+    <content type="html"><![CDATA[<p><em>TL;DR: As game makers, we should stop arguing about whether to use HTML5 or Flash and use the best parts of any browser technology to make the best games possible.</em></p>
+
+<p>Just when I thought the whole HTML5 vs. Flash nonsense had withered away, a link to this <del>piece of propaganda</del> <a href="http://venturebeat.com/2012/01/31/html5-versus-flash-infographic/">infographic</a> percolates through my Twitter feed glorifying Flash as the clear champion in the realm of browser-based gaming. It&#8217;s no surprise, considering this was created by a Flash game portal, but I am not here to prop up either side of a silly debate. Rather I argue that treating these two <em>intersecting</em> technologies in diametrical opposition to one another hinders us from making the best games possible in the browser.</p>
+
+<h2>Flash is awesome.</h2>
+
+<p>Ever since the Flex SDK (well most of it anyway) became open-source in 2008, the <a href="http://www.adobe.com/products/flex.html">tools</a> for making Flash games have been available to anyone. You can use any text-editor to write your code and are not required to use the Flash IDE to compile or debug Flash SWFs. There are a wealth of libraries for handling physics and such, good documentation, and some great frameworks designed just for building games.</p>
+
+<h2>HTML5 is awesome.</h2>
+
+<p>The work being done to push the capabilities of browsers is really impressive. Looking back a year ago, it&#8217;s amazing to see how far browsers have come. JavaScript development is trivial, requiring no compilation and minimal tools. Heck, the browser itself can be your IDE. JavaScript has been around for so long and used for so many things, there&#8217;s quite a bit code out there to learn from and libraries to use. And work continues — rapidly — to expand the feature set of browsers.</p>
+
+<h2>Focus on creating the best experience.</h2>
+
+<p>What I propose is that we apply the principles of <a href="http://www.alistapart.com/articles/understandingprogressiveenhancement">progressive enhancement</a> to our use of browser technology to create games. We can see this already happening with the use of <a href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills">polyfills</a> to fallback to Flash, etc. when a browser doesn&#8217;t support a particular feature natively (e.g. Web Audio). This requires a bit more planning and always working with the lowest common denominator in mind, but in a sense we&#8217;re working on creating a flexible codebase that <em>ports itself</em> to various platforms, rather than requiring partial or complete re-implementations. I&#8217;m not exactly sure how this works, but I&#8217;m working through these challenges as I develop <strong><a href="http://digdeepdungeons.com/">Dig Deep Dungeons</a></strong>, since one of my goals is to make the game playable on as many platforms as possible.</p>
+
+<p>Years ago, being disappointed in a lack of gamepad/joystick support in Flash, I built an experiment using <a href="http://crca.ucsd.edu/~msp/software.html">Pure Data</a> to convert standard joystick input to <a href="http://opensoundcontrol.org/introduction-osc">Open Sound Control</a>, and piped it into Flash using <a href="http://benchun.net/flosc/">FLOSC</a>. And it was awesome. We&#8217;re so used to thinking monolithically about what we use to make games (Flash OR Unity OR Canvas OR…) we&#8217;re missing an opportunity to make really interesting mash-ups in the browser that are greater than the sum of their parts. And we&#8217;re denying ourselves the ability to respond to an expanding audience on an array of devices.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dig Deep Dungeons Update: Stairs and Torches]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2012/01/22/dig-deep-dungeons-update-stairs-and-torches/"/>
+    <updated>2012-01-22T12:00:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2012/01/22/dig-deep-dungeons-update-stairs-and-torches</id>
+    <content type="html"><![CDATA[<p><img src="http://justincrounds.files.wordpress.com/2012/01/dungeon_with_torches.png" title="A section of dungeon illuminated by torches in Dig Deep Dungeons." alt="Dig Deep Dungeons" /></p>
+
+<p>Work has been progressing on <strong><a href="href=http://digdeepdungeons.com/">Dig Deep Dungeons</a></strong>, much to my satisfaction. I updated the art assets for stairs (they used to be ladders that looked a bit wrong in the space) and wired them up to create complete dungeons with multiple floors. I had a placeholder lighting engine working that had the right look and feel, but there were a few bugs that prevented it from being usable, so I put in a couple refactoring passes and got it working. The world is starting to come together. I have begun work on the player character assets which will become necessary for the next phase of development where player interaction will really get wired up in a way that looks and feels as intended.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I don’t believe in luck anymore]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2012/01/13/i-dont-believe-in-luck-anymore/"/>
+    <updated>2012-01-13T13:55:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2012/01/13/i-dont-believe-in-luck-anymore</id>
+    <content type="html"><![CDATA[<blockquote><p>I don’t believe in luck anymore.<br/>Bad or good.<br/>I used to believe in pennies and four-leaf clovers and horseshoes and rabbit feet, spilt salt and broken mirrors and Friday the 13ths.<br/>I even kept a jar of Luck on a shelf to save for a day when I needed it most, though in retrospect I probably should have found a bottle that distinguished itself as the good sort.<br/>It worked, in a way, which was impressive considering how little I paid for it.<br/>But I changed my mind.<br/>It’s not that simple. It’s all tied up in choices and chances and paths taken regardless of what kinds of cats cross them. Luck can only get you so far, good or bad.<br/>Though I still believe fortune favors the bold, no matter what they keep in their jars.</p><footer><strong>Erin Morgenstern, “luck”</strong> <cite><a href='http://erinmorgenstern.com/2012/01/flax-golden-tales-luck/'>erinmorgenstern.com/2012/01/&hellip;</a></cite></footer></blockquote>
+
+
+<p>This totally made my Friday the 13th today.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Calculating the intersection of two lines]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2011/12/11/detecting-the-intersection-of-two-lines-or-line-segments/"/>
+    <updated>2011-12-11T12:00:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2011/12/11/detecting-the-intersection-of-two-lines-or-line-segments</id>
+    <content type="html"><![CDATA[<p>Demonstrating a function for calculating the intersection of two lines, and determining whether the intersection point is on either line segment.</p>
+
+<iframe style="width: 100%; height: 500px" src="http://jsfiddle.net/justin_c_rounds/Gd2S2/embedded/result,js,html,css/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Berkshire Scenic Railroad]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2011/07/03/berkshire-scenic-railroad/"/>
+    <updated>2011-07-03T12:54:00-04:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2011/07/03/berkshire-scenic-railroad</id>
+    <content type="html"><![CDATA[<p><img src="http://25.media.tumblr.com/tumblr_lnroatO13V1qz9225o1_500.jpg" alt="Berkshire Scenic Railroad" />
+<img src="http://25.media.tumblr.com/tumblr_lnro7rv1tv1qz9225o1_500.jpg" alt="Berkshire Scenic Railroad" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Charles River]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2011/06/18/charles-river/"/>
+    <updated>2011-06-18T19:48:00-04:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2011/06/18/charles-river</id>
+    <content type="html"><![CDATA[<p><img src="http://25.media.tumblr.com/tumblr_ln0fhkuwX61qz9225o1_500.jpg" alt="Charles River" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[(In Response to) David vs. GoliathVille: A Call to Arms for Indie Social Game Designers]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2010/11/11/%28in-response-to%29-david-vs.-goliathville%3A-a-call-to-arms-for-indie-social-game-designers/"/>
+    <updated>2010-11-11T12:30:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2010/11/11/(in-response-to)-david-vs.-goliathville:-a-call-to-arms-for-indie-social-game-designers</id>
+    <content type="html"><![CDATA[<iframe src="http://www.slideshare.net/slideshow/embed_code/5989929" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/numberless/david-vs-goliathville-a-call-to-arms-for-social-game-designers" title="David vs. GoliathVille: A Call to Arms for Social Game Designers" target="_blank">David vs. GoliathVille: A Call to Arms for Social Game Designers</a> </strong> from <strong><a href="http://www.slideshare.net/numberless" target="_blank">Scott Siegel</a></strong> </div></p>
+
+<p>One thing I don&#8217;t see addressed here is the technical barrier-to-entry associated with building a game on a social network like Facebook. I don&#8217;t think most of the indie developers I am familiar with have (or care to spend) the resources to build the infrastructure required to make a successful Facebook game. Being deep in the trenches on this, I can say with certainty that it&#8217;s a huge technical challenge to develop a basic game on Facebook, hook it up to the necessary APIs, and get it running on a reliable, scalable server environment. A majority of indies are focused on creating self-contained, singular experiences and probably don&#8217;t want to invest their already limited resources in learning how to build stable and secure web-apps (which ultimately any successful Facebook game needs to be). In addition you have to consider the monetary costs, since Facebook doesn&#8217;t even provide hosting services for your application.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Maze of Space]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2010/11/09/maze-of-space/"/>
+    <updated>2010-11-09T12:00:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2010/11/09/maze-of-space</id>
+    <content type="html"><![CDATA[<p><img src="http://www.kloonigames.com/blog/wp-content/uploads/2010/11/maze_of_space_shot_02.jpg" alt="Maze of Space" /></p>
+
+<p>Today <a href="http://www.kloonigames.com/">Petri Purho</a> (creator of <a href="http://www.crayonphysics.com/">Crayon Physics Deluxe</a>) released a nifty little game experiment called <a href="http://www.kloonigames.com/blog/games/mazeofspace">Maze of Space</a> that has been the best thing to accompany my morning coffee since pastries in Paris. Being a total sucker for anything remotely resembling an RPG, I&#8217;m completely biased, but while the mechanics of the game are well-established and reliable, it&#8217;s the charm of the visual treatment that warms my heart. I&#8217;m actually a bit iffy on pixel art. I think it&#8217;s trendy these days and overused, but I can really appreciate the art of using a limited palette and resolution to create interesting characters and environments, much akin to my love of low-poly modeling. In addition, I love the method of making digital things look, well <em>less digital</em> by giving them the qualities of physical objects (realistic textures, etc.). So when I saw how Maze of Space was treating its giant-pixel artwork I was really excited to play it. For the most part, it looks great, with each pixel looking like it was made with a paintbrush instead of MS Paint. But what the screenshots don&#8217;t tell you is that this painterly style is accompanied by a headache-inducing perpetually shaking camera. I presume this is intended to give it a stop-motion animation feel, but I think it&#8217;s too much. The camera shake for some of the weapons works, but again it seems like it shakes too much. Other issues I would like to see addressed:</p>
+
+<ul>
+<li>Enemies can shoot diagonally but the player cannot.</li>
+<li>Enemies do not move.</li>
+<li>Hitting ESC quits the game (I was hoping to find a menu with an option to turn off the camera shaking).</li>
+<li>Needs a save system.</li>
+<li>Money doesn&#8217;t seem to have a purpose (maybe there is a store further into the maze than I have reached?).</li>
+<li>The only way to see the stats on inventory items is to equip them.</li>
+</ul>
+
+
+<p>I am fully prepared to throw money at this game when/if it is finished (assuming I can turn the camera shake off). Download the current release at <a href="http://www.kloonigames.com/blog/games/mazeofspace">http://www.kloonigames.com/blog/games/mazeofspace</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Happy Halloween!]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2010/10/31/happy-halloween/"/>
+    <updated>2010-10-31T16:44:00-04:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2010/10/31/happy-halloween</id>
+    <content type="html"><![CDATA[<p><img src="http://24.media.tumblr.com/tumblr_lb69ly8coj1qz9225o1_500.jpg" alt="oooOOOooo" />
+<img src="http://25.media.tumblr.com/tumblr_lb69io3snx1qz9225o1_500.jpg" alt="Spookies" />
+<img src="http://24.media.tumblr.com/tumblr_lb69ejv4A41qz9225o1_500.jpg" alt="Dusk approaching…" />
+<img src="http://24.media.tumblr.com/tumblr_lb69acgZd81qz9225o1_500.jpg" alt="Skelly" />
+<img src="http://25.media.tumblr.com/tumblr_lb695vAlmz1qz9225o1_500.jpg" alt="Happy Halloween!" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mommy and baby monsters (posed by Jane)]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2010/10/30/mommy-and-baby-monsters/"/>
+    <updated>2010-10-30T10:17:00-04:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2010/10/30/mommy-and-baby-monsters</id>
+    <content type="html"><![CDATA[<p><img src="http://25.media.tumblr.com/tumblr_lb3x1oL5971qz9225o1_500.jpg" alt="Mommy and baby monsters (posed by Jane)" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Jane’s 6th Birthday Party]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2010/10/23/janes-6th-birthday-party/"/>
+    <updated>2010-10-23T15:37:00-04:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2010/10/23/janes-6th-birthday-party</id>
+    <content type="html"><![CDATA[<p><img src="http://24.media.tumblr.com/tumblr_lard5xCwCq1qz9225o1_500.jpg" alt="Jane’s 6th Birthday Party" /></p>
 ]]></content>
   </entry>
   
