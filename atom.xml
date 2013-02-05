@@ -4,7 +4,7 @@
   <title><![CDATA[Justin C. Rounds]]></title>
   <link href="http://justin-c-rounds.github.com/atom.xml" rel="self"/>
   <link href="http://justin-c-rounds.github.com/"/>
-  <updated>2013-02-03T20:47:13-05:00</updated>
+  <updated>2013-02-05T09:35:26-05:00</updated>
   <id>http://justin-c-rounds.github.com/</id>
   <author>
     <name><![CDATA[Justin C. Rounds]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[#1GAM January Achieved! Whizardry: Wanderer]]></title>
+    <link href="http://justin-c-rounds.github.com/blog/2013/02/04/number-1gam-january-achieved-whizardry-wanderer/"/>
+    <updated>2013-02-04T09:29:00-05:00</updated>
+    <id>http://justin-c-rounds.github.com/blog/2013/02/04/number-1gam-january-achieved-whizardry-wanderer</id>
+    <content type="html"><![CDATA[<p><img src="http://content.screencast.com/users/justin_c._rounds/folders/Jing/media/ebbd5cc0-4073-4bf2-8dad-c1ba5b3b0983/00000020.png" alt="Whizardry: Wanderer" /></p>
+
+<p>There were 1052(!) games made in January for <a href="http://onegameamonth.com/">One Game A Month</a>, and I am <em>very</em> happy to have my little game included in the lot. I&#8217;m also very happy with how it turned out, in spite of not quite becoming the game I hoped to make at the start. I had plans to develop my little tech demo into a complete dungeon crawler with at least a couple monsters to hack at, but alas I didn&#8217;t get to it in time. Regardless, I&#8217;m pretty happy with it and at the final hour I did come up with the idea of finding the exit in the least possible number of moves (either steps forward/back or turns). A simple goal, a simple mechanic, and simple to implement.</p>
+
+<p><a href="http://whizardry.herokuapp.com/">Play it in your browser</a> (Works on OSX Chrome and Safari, has rendering bugs on Firefox)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Blogging with Octopress]]></title>
@@ -270,15 +283,6 @@
     <updated>2010-10-30T10:17:00-04:00</updated>
     <id>http://justin-c-rounds.github.com/blog/2010/10/30/mommy-and-baby-monsters</id>
     <content type="html"><![CDATA[<p><img src="http://25.media.tumblr.com/tumblr_lb3x1oL5971qz9225o1_500.jpg" alt="Mommy and baby monsters (posed by Jane)" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Jane’s 6th Birthday Party]]></title>
-    <link href="http://justin-c-rounds.github.com/blog/2010/10/23/janes-6th-birthday-party/"/>
-    <updated>2010-10-23T15:37:00-04:00</updated>
-    <id>http://justin-c-rounds.github.com/blog/2010/10/23/janes-6th-birthday-party</id>
-    <content type="html"><![CDATA[<p><img src="http://24.media.tumblr.com/tumblr_lard5xCwCq1qz9225o1_500.jpg" alt="Jane’s 6th Birthday Party" /></p>
 ]]></content>
   </entry>
   
