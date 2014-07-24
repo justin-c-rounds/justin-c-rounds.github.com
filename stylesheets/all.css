@@ -1,0 +1,38 @@
+/* line 3, /Users/justincrounds/Dropbox/justincrounds.org/source/stylesheets/all.css.sass */
+pre {
+  font-family: inherit;
+  color: crimson;
+  font-size: 0.9em;
+  text-shadow: 0 0.5em 0.5em black; }
+
+/* line 9, /Users/justincrounds/Dropbox/justincrounds.org/source/stylesheets/all.css.sass */
+body {
+  font-family: "Courier New", monospace;
+  background: grey;
+  text-align: center; }
+
+/* line 14, /Users/justincrounds/Dropbox/justincrounds.org/source/stylesheets/all.css.sass */
+.subtitle {
+  font-size: 2em;
+  color: darkred;
+  text-shadow: 0 0.1em 0.1em black; }
+
+/* line 19, /Users/justincrounds/Dropbox/justincrounds.org/source/stylesheets/all.css.sass */
+.links {
+  margin: 1em;
+  position: relative; }
+  /* line 23, /Users/justincrounds/Dropbox/justincrounds.org/source/stylesheets/all.css.sass */
+  .links h1 {
+    position: absolute;
+    color: dimgrey;
+    opacity: 0.5;
+    font-weight: normal;
+    line-height: 50px;
+    left: 0;
+    right: 0;
+    margin: auto; }
+  /* line 33, /Users/justincrounds/Dropbox/justincrounds.org/source/stylesheets/all.css.sass */
+  .links a {
+    position: relative;
+    margin: 1em;
+    line-height: 50px; }
