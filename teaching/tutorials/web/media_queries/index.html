@@ -1,0 +1,21 @@
+<h1 id="web-design-development-media-queries">Web Design &amp; Development: Media Queries</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Media queries allow web pages to apply different CSS rules based on device orientation, screen size, and other criteria.</p>
+<h2 id="usage">Usage</h2>
+<p>There are two methods for using media queries:</p>
+<ol>
+<li><p><strong>As part of a <code>&lt;link&gt;</code> tag.</strong></p>
+<pre><code> &lt;link rel=&quot;stylesheet&quot; media=&quot;(max-width: 800px)&quot; href=&quot;example.css&quot; /&gt;
+</code></pre><p>This indicates to the browser that the CSS contained in <code>example.css</code> should only be applied when the browser window is less than or equal to 800 pixels wide.</p>
+</li>
+<li><p><strong>Within a stylesheet.</strong></p>
+<pre><code> @media (min-width: 600px) {
+   .facet_sidebar {
+     display: none;
+   }
+ }
+</code></pre><p>This indicates to the browser that the CSS contained within the <code>@media</code> block should only be applied when the browser window is greater than or equal to 600 pixels wide.</p>
+</li>
+</ol>
+<p>While both of these methods work, using the <code>media</code> attribute of the <code>&lt;link&gt;</code> tag is less optimal because the browser will have to download the additional stylesheet. In general, it is best to reduce the number of files required by the browser to render a web page, in addition to keeping file sizes as small as possible.</p>
+<p><a href="https://justin-c-rounds.neocities.org/tutorials/media_queries/example.html">See an example of a responsive layout using media queries.</a></p>

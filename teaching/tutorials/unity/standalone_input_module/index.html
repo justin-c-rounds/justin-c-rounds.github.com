@@ -1,0 +1,20 @@
+<h1 id="unity-2d-standalone-input-module">Unity 2d: Standalone Input Module</h1>
+<ol>
+<li>Create a new 2d project.</li>
+<li>Add the Standalone Input Module component to the Main Camera: Add Component → Event → Standalone Input Module.</li>
+<li>Add the Physics 2d Raycaster component to the Main Camera: Add Component → Event → Physics 2d Raycaster.</li>
+<li>Create a new sprite: GameObject → 2D Object → Sprite.</li>
+<li>Add the Box Collider 2D component to the sprite: Add Component → Physics 2D → Box Collider 2D.</li>
+<li>Add a custom script to the Sprite with a public function to handle a mouse pointer event, e.g.:<pre><code> public void Drag (BaseEventData data) {
+   PointerEventData p = (PointerEventData)data;
+   Vector3 vp = Camera.main.WorldToScreenPoint (transform.position);
+   Vector3 d = new Vector3 (p.delta.x, p.delta.y, 0);
+   transform.position = Camera.main.ScreenToWorldPoint (vp + d);
+ }
+</code></pre></li>
+<li>Add an Event Trigger component to the Sprite: Add Component → Event → Event Trigger.</li>
+<li>Click the &quot;Add New Event Type&quot; button in the Event Trigger component and select the appropriate event (e.g. Drag).</li>
+<li>Click the little target button in the event type box and select the Sprite asset.</li>
+<li>Click the dropdown which says &quot;No Function&quot; and select the public function you created.</li>
+<li>Test the mouse input on your sprite.</li>
+</ol>

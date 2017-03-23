@@ -1,0 +1,89 @@
+body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  height: 3rem;
+  background: red;
+  line-height: 3rem;
+  padding-left: 3%;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav {
+  height: 3em;
+  background: yellow;
+}
+
+nav ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  font-size: 0;
+}
+
+nav li {
+  font-size: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 30%;
+  margin: -0.85rem 1.25% 0 1.25%;
+  position: relative;
+  top: 50%;
+  padding-top: 0.1rem;
+  line-height: 1.5rem;
+  background: lightgrey;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 0.1rem solid black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main {
+  position: absolute;
+  top: 6em;
+  bottom: 3em;
+  width: 100%;
+  background: orange;
+  overflow: auto;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  background: pink;
+  flex-grow: 1;
+  margin: 1rem;
+  padding: 1em;
+  max-width: 20rem;
+}
+
+img {
+  width: 100%;
+  min-width: 20rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3em;
+  background: aqua;
+}
