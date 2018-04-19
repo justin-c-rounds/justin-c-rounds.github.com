@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript: Class Manipulation</title>
+  </head>
+  <body>
+    <h1>JavaScript: Class Manipulation</h1>
+    <p>Manipulating the DOM (i.e. the HTML being rendered by the browser) dynamically is one of the most useful applications of JavaScript.</p>
+    <h2>Adding/Removing CSS Classes</h2>
+    <p>Adding, removing, and toggling CSS classes on elements:</p>
+    <script>
+      function example1() {
+        document.getElementById('example1').classList.add('go');
+      }
+      function example1_1() {
+        document.getElementById('example1').classList.remove('go');
+      }
+      function example1_2() {
+        document.getElementById('example1').classList.toggle('highlight');
+      }
+    </script>
+    <style>
+      .sample {
+        display: inline;
+        font-weight: bold;
+      }
+      .ready { color: red; }
+      .go { color: green; }
+      .highlight { background: yellow; }
+    </style>
+    <p id="example1" class="sample ready">Sample Text</p>
+    <p>
+      This button adds an <code>on</code> class
+      <button onclick="example1()">Make Text Green</button>
+    </p>
+    <p>
+      This button removes it
+      <button onclick="example1_1()">Make Text Red</button>
+    </p>
+    <p>
+      This button toggles a highlight on the text
+      <button onclick="example1_2()">Toggle Text Highlight</button>
+    </p>
+  </body>
+</html>
